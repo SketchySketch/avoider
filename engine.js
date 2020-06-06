@@ -114,7 +114,7 @@ timer2 = setInterval(function () {
     }
   }
 
-  if (heart <= 70) {
+  if (heart <= 70 && heart > 40) {
 	  ht.style.backgroundColor = "#d9db44"
   } else if (heart <= 40) {
 	  ht.style.backgroundColor = "#db6f44"
