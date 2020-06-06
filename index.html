@@ -8,26 +8,25 @@
 		<style>
 			body{
 				background-color:#333333;
-				height:10000px;
 			}
 			#box{
-				width: 1000px;
-				height: 800px;
+				width: 800px;
+				height: 500px;
 				position: relative;
 				margin:50px auto 0;
 				background-color:#555555;
 			}
 			#ball{
-				width: 50px;
-				height: 50px;
+				width: 30px;
+				height: 30px;
 				position: absolute;
 				top: 66px;
 				left: 88px;
 				background-color:#999999;
 			}
 			#obstc{
-				width: 50px;
-				height: 50px;
+				width: 30px;
+				height: 30px;
 				position: absolute;
 				top: 66px;
 				left: 88px;
@@ -36,15 +35,14 @@
 			#ht{
 				width: 100px;
 				height: 10px;
-				background-color: #BB8888;
+				background-color: #44db5d;
 			}
 		</style>
 		<div id="box">
 			<div id="ball"></div>
 			<div id="obstc"></div>
 		</div>
-			<button onclick="spdBall = totalSpdBall / 3;">X SPD UP</button>
-			<button onclick="spdBall = totalSpdBall - spdBall">Y SPD UP</button>
+			<button onclick="changedir();">X SPD UP</button>
 		<div id="ht"></div>
 		<script src="engine.js"></script>
 	</body>
