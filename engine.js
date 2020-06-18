@@ -14,7 +14,7 @@ var xb = 88,
   movexo = true,
   moveyo = true,
   totalSpdBall = 3,
-  spdBall = totalSpdBall / 3,
+  spdBall = totalSpdBall / 5,
   score = 0,
   heart = 100;
 
