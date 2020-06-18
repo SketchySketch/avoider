@@ -133,6 +133,6 @@ function changedir() {
   dir = !dir;
 }
 
-window.addEventListener("keypress", (_) => {
+window.addEventListener("keydown", (_) => {
   changedir();
 });
